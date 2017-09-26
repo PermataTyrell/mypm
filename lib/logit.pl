@@ -34,7 +34,7 @@
 
 use strict;
 
-require "/home/gurun/public_html/forumx/lib/getlocaltime.pl";
+require "lib/getlocaltime.pl";
 
 sub logit {
 	my $engine = shift;

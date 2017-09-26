@@ -1,8 +1,8 @@
 use strict;
 
-require "/home/gurun/public_html/forumx/lib/isokfname.pl";
-require "/home/gurun/public_html/forumx/lib/files.conf";
-require "/home/gurun/public_html/forumx/lib/logit.pl";
+require "lib/isokfname.pl";
+require "lib/files.conf";
+require "lib/logit.pl";
 
 sub fdbupdate {
 	my $file         = shift; ## 0

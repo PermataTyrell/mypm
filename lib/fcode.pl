@@ -1,6 +1,6 @@
 use strict;
 
-require "/home/gurun/public_html/forumx/lib/files_general.conf";
+require "lib/files_general.conf";
 
 sub fencode {
         my $VALUE = shift;

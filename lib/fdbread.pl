@@ -17,8 +17,8 @@
 
 use strict;             
 
-require "/home/gurun/public_html/forumx/lib/files_general.conf";
-require "/home/gurun/public_html/forumx/lib/logit.pl";
+require "lib/files_general.conf";
+require "lib/logit.pl";
 
 sub fdbread {
 	my $file          = shift;

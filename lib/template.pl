@@ -1,6 +1,6 @@
 use strict;
 
-require "/home/gurun/public_html/forumx/lib/fdbread.pl";
+require "lib/fdbread.pl";
 
 $lib::template::securitydb = "data/security.dat";
 $lib::template::user = $ENV{'REMOTE_USER'};

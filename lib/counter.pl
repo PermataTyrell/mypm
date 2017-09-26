@@ -6,7 +6,7 @@ use strict;
 # Library utk uruskan counter
 #############################
 
-require "/home/gurun/public_html/forumx/lib/logit.pl";
+require "lib/logit.pl";
 
 sub counterplus {
 	my $file = shift;

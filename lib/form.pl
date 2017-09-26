@@ -2,7 +2,7 @@
 #  Updated on Jan. 16th 2006 - Insert code for multipart/form-data to check
 #  if file uploading being used
 
-require "/home/gurun/public_html/forumx/lib/mime_parts.pl"; # for multipart/form-data
+require "lib/mime_parts.pl"; # for multipart/form-data
 
 sub form  {
 

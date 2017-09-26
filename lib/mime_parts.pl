@@ -2,7 +2,7 @@
 #  1: boundary
 #  2: current part number count
 
-require "/home/gurun/public_html/forumx/lib/parse_header.pl";
+require "lib/parse_header.pl";
 
 sub mime_parts {
 	my $mail = shift;

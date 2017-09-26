@@ -1,6 +1,6 @@
 use strict;
 
-require "/home/gurun/public_html/forumx/lib/logit.pl";
+require "lib/logit.pl";
 
 sub isokfname {
 	my $file = shift;
