@@ -1,0 +1,18 @@
+<FilesMatch "(.*)">
+Order Deny,Allow
+Deny from all
+Allow from all
+</FilesMatch>
+
+IndexIgnore *
+DirectoryIndex index.html index.cgi index.php
+Options -Indexes +ExecCGI
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://mypm.tyrellsys.com.my/$1 [L,R=301]
+
+RewriteCond %{HTTP_HOST} !mypm.tyrellsys.com.my$ [NC]
+RewriteRule .* http://0.0.0.0/ [L,R=301]
