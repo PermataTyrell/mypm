@@ -38,5 +38,7 @@ inc/
 
 .gitignore
 /.idea/
+/usage/
+/log/
 
 
